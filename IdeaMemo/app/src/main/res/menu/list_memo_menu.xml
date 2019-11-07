@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/listMemo_menu_all"
+        android:title="All Memos"
+        app:showAsAction="never"/>
+    <item android:id="@+id/listMemo_menu_active"
+        android:title="Active Memos"
+        app:showAsAction="never"/>
+    <item android:id="@+id/listMemo_menu_closed"
+        android:title="Closed Memos"
+        app:showAsAction="never"/>
+</menu>
